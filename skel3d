@@ -1,0 +1,3702 @@
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000000.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000000.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000000.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0484,    0.8557,   21.0891,    0.1148,    8.4804
+    0.0057,    0.0126,   56.4366,    0.0131
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000001.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000001.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000001.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0435,    0.8617,   21.7191,    0.1096,    8.4231
+    0.0047,    0.0112,   55.2170,    0.0128
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000002.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000002.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000002.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0388,    0.8704,   21.9898,    0.1007,    8.3434
+    0.0032,    0.0091,   52.9798,    0.0095
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000003.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000003.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000003.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0388,    0.8700,   22.0581,    0.1018,    8.4457
+    0.0032,    0.0095,   53.8108,    0.0099
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000004.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000004.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000004.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0353,    0.8750,   22.4103,    0.0953,    8.1094
+    0.0024,    0.0092,   52.6770,    0.0087
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000005.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000005.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000005.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0354,    0.8724,   22.1687,    0.0959,    7.9927
+    0.0023,    0.0095,   52.4332,    0.0094
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000006.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000006.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000006.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0339,    0.8781,   22.6278,    0.0914,    7.9797
+    0.0022,    0.0089,   52.7476,    0.0083
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000007.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000007.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000007.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0329,    0.8805,   22.7730,    0.0882,    7.7217
+    0.0021,    0.0086,   53.7602,    0.0076
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000008.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000008.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000008.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0336,    0.8778,   22.6351,    0.0907,    7.9349
+    0.0022,    0.0094,   51.7255,    0.0084
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000009.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000009.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000009.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0349,    0.8781,   22.4292,    0.0895,    8.1511
+    0.0025,    0.0091,   51.4639,    0.0075
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000010.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000010.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000010.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0353,    0.8784,   22.7647,    0.0911,    8.0824
+    0.0029,    0.0099,   52.0118,    0.0092
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000011.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000011.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000011.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0344,    0.8797,   22.9054,    0.0894,    8.0155
+    0.0028,    0.0097,   52.9490,    0.0089
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000012.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000012.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000012.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0349,    0.8757,   22.5675,    0.0931,    8.0639
+    0.0026,    0.0104,   53.6556,    0.0093
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000013.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000013.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000013.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0333,    0.8822,   22.7955,    0.0847,    7.8731
+    0.0025,    0.0092,   51.3703,    0.0070
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000014.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000014.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000014.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0333,    0.8816,   22.9900,    0.0851,    7.6982
+    0.0028,    0.0099,   55.2408,    0.0080
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000015.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000015.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000015.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0343,    0.8822,   22.9486,    0.0856,    7.9954
+    0.0027,    0.0093,   53.0872,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000016.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000016.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000016.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0335,    0.8830,   22.9936,    0.0834,    7.9638
+    0.0027,    0.0094,   52.3036,    0.0075
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000017.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000017.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000017.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0329,    0.8848,   23.0838,    0.0808,    8.0344
+    0.0026,    0.0091,   53.0826,    0.0065
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000018.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000018.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000018.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0339,    0.8830,   22.9697,    0.0819,    7.7057
+    0.0031,    0.0094,   54.8691,    0.0069
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000019.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000019.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000019.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0317,    0.8861,   23.2518,    0.0815,    7.8137
+    0.0024,    0.0086,   53.0409,    0.0067
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000020.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000020.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000020.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0327,    0.8861,   23.2558,    0.0826,    8.0587
+    0.0027,    0.0091,   52.6392,    0.0072
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000021.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000021.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000021.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0367,    0.8799,   23.0412,    0.0884,    7.8975
+    0.0039,    0.0108,   56.8660,    0.0098
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000022.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000022.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000022.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0342,    0.8829,   23.1259,    0.0853,    7.7205
+    0.0032,    0.0099,   54.1850,    0.0082
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000023.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000023.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000023.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0333,    0.8852,   23.3353,    0.0853,    7.8959
+    0.0029,    0.0093,   53.6496,    0.0086
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000024.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000024.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000024.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0371,    0.8767,   22.7178,    0.0908,    8.0213
+    0.0036,    0.0118,   55.4269,    0.0103
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000025.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000025.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000025.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0331,    0.8839,   23.2655,    0.0831,    7.5456
+    0.0031,    0.0102,   54.9946,    0.0080
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000026.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000026.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000026.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0330,    0.8840,   23.4754,    0.0823,    7.7010
+    0.0031,    0.0103,   54.3219,    0.0080
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000027.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000027.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000027.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0330,    0.8855,   23.2618,    0.0820,    7.6567
+    0.0029,    0.0095,   54.0096,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000028.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000028.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000028.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0327,    0.8858,   23.3997,    0.0813,    7.8092
+    0.0028,    0.0094,   53.6468,    0.0071
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000029.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000029.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000029.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0324,    0.8851,   23.4356,    0.0815,    7.5913
+    0.0029,    0.0097,   54.1756,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000030.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000030.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000030.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0331,    0.8848,   23.4528,    0.0821,    7.6434
+    0.0031,    0.0105,   53.5025,    0.0084
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000031.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000031.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000031.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0331,    0.8853,   23.5998,    0.0822,    7.6367
+    0.0033,    0.0102,   55.2771,    0.0082
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000032.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000032.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000032.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0354,    0.8808,   22.9852,    0.0849,    7.8666
+    0.0036,    0.0108,   53.5965,    0.0086
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000033.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000033.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000033.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0338,    0.8856,   23.4289,    0.0815,    7.7815
+    0.0034,    0.0094,   53.6312,    0.0072
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000034.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000034.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000034.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0343,    0.8819,   23.2864,    0.0843,    7.8028
+    0.0035,    0.0107,   55.3933,    0.0082
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000035.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000035.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000035.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0338,    0.8845,   23.3694,    0.0831,    7.7455
+    0.0031,    0.0102,   53.9694,    0.0084
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000036.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000036.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000036.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0314,    0.8869,   23.5924,    0.0800,    7.3801
+    0.0028,    0.0093,   54.3914,    0.0075
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000037.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000037.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000037.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0313,    0.8876,   23.6357,    0.0808,    7.6908
+    0.0024,    0.0089,   52.5369,    0.0070
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000038.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000038.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000038.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0325,    0.8851,   23.5847,    0.0820,    7.7621
+    0.0031,    0.0103,   54.1535,    0.0084
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000039.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000039.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000039.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0327,    0.8864,   23.5649,    0.0812,    7.6327
+    0.0031,    0.0098,   52.9439,    0.0081
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000040.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000040.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000040.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0317,    0.8870,   23.6895,    0.0803,    7.5925
+    0.0029,    0.0095,   54.1789,    0.0078
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000041.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000041.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000041.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0345,    0.8844,   23.2815,    0.0822,    7.7651
+    0.0031,    0.0100,   52.8662,    0.0079
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000042.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000042.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000042.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0320,    0.8876,   23.5215,    0.0801,    7.7098
+    0.0027,    0.0086,   52.6039,    0.0069
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000043.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000043.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000043.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0332,    0.8857,   23.5863,    0.0808,    7.6116
+    0.0030,    0.0097,   54.7062,    0.0074
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000044.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000044.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000044.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0312,    0.8880,   23.5668,    0.0791,    7.5678
+    0.0024,    0.0086,   53.3152,    0.0067
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000045.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000045.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000045.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0327,    0.8864,   23.5461,    0.0803,    7.7918
+    0.0030,    0.0097,   52.5641,    0.0075
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000046.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000046.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000046.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0324,    0.8860,   23.6167,    0.0803,    7.7415
+    0.0030,    0.0097,   53.1175,    0.0075
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000047.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000047.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000047.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0323,    0.8862,   23.5749,    0.0801,    7.8133
+    0.0030,    0.0097,   51.4301,    0.0074
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000048.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000048.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000048.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0329,    0.8858,   23.4968,    0.0807,    7.9347
+    0.0029,    0.0098,   52.0962,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000049.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000049.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000049.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0311,    0.8888,   23.7782,    0.0789,    7.4736
+    0.0027,    0.0089,   49.9109,    0.0071
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000050.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000050.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000050.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0293,    0.8912,   23.8219,    0.0771,    7.5579
+    0.0021,    0.0076,   50.8471,    0.0058
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000051.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000051.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000051.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0322,    0.8879,   23.5188,    0.0799,    7.6850
+    0.0026,    0.0084,   50.9810,    0.0069
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000052.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000052.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000052.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0305,    0.8909,   23.9531,    0.0784,    7.6554
+    0.0025,    0.0080,   51.7498,    0.0066
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000053.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000053.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000053.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0326,    0.8866,   23.4924,    0.0810,    7.5967
+    0.0031,    0.0095,   50.9715,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000054.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000054.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000054.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0340,    0.8857,   23.4815,    0.0817,    7.6836
+    0.0035,    0.0094,   51.5803,    0.0073
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000055.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000055.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000055.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0344,    0.8845,   23.4047,    0.0819,    7.6311
+    0.0038,    0.0106,   52.6619,    0.0078
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000056.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000056.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000056.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0304,    0.8907,   23.7555,    0.0771,    7.4753
+    0.0025,    0.0076,   50.4778,    0.0060
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000057.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000057.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000057.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0312,    0.8886,   23.7629,    0.0780,    7.6899
+    0.0027,    0.0087,   52.0603,    0.0064
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000058.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000058.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000058.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0344,    0.8832,   23.1271,    0.0836,    7.7897
+    0.0032,    0.0095,   50.2732,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000059.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000059.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000059.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0306,    0.8876,   23.6651,    0.0797,    7.5853
+    0.0024,    0.0085,   51.6463,    0.0066
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000060.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000060.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000060.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0311,    0.8890,   23.6573,    0.0793,    7.7647
+    0.0025,    0.0083,   48.9722,    0.0066
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000061.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 17
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (1, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000061.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000061.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0338,    0.8855,   23.4230,    0.0823,    7.7233
+    0.0032,    0.0092,   50.6038,    0.0077
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000062.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000062.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000062.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0322,    0.8851,   23.7089,    0.0838,    7.7781
+    0.0027,    0.0098,   56.2853,    0.0083
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000063.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000063.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000063.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0318,    0.8874,   23.7558,    0.0800,    7.8214
+    0.0024,    0.0091,   58.3589,    0.0071
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000064.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000064.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000064.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0309,    0.8886,   23.7524,    0.0792,    7.6536
+    0.0022,    0.0088,   56.7062,    0.0068
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000065.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000065.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000065.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0322,    0.8875,   23.8997,    0.0796,    7.6994
+    0.0027,    0.0098,   59.4360,    0.0072
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000066.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000066.ckpt/inputs/
+Found 257 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000066.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0300,    0.8899,   24.0753,    0.0780,    7.5714
+    0.0022,    0.0086,   60.5770,    0.0064
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000067.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000067.ckpt/inputs/
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000067.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0320,    0.8838,   23.6750,    0.0831,    7.5288
+    0.0027,    0.0105,   59.0418,    0.0084
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000068.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000068.ckpt/inputs/
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000068.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0273,    0.8944,   24.3991,    0.0739,    7.6074
+    0.0017,    0.0077,   56.7181,    0.0053
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000069.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000069.ckpt/inputs/
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000069.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0290,    0.8898,   23.9287,    0.0775,    7.7214
+    0.0019,    0.0086,   57.9988,    0.0060
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000070.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Setting up [LPIPS] perceptual loss: trunk [squeeze], v[0.1], spatial [off]
+Loading model from: /venvs/venv_free3d/lib/python3.10/site-packages/lpips/weights/v0.1/squeeze.pth
+compute FID between two folders
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000070.ckpt/inputs/
+Found 256 images in the folder /outputs/hdf5_free3d_baseline1_epoch=000070.ckpt/samples_cfg_scale_3.00/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0326,    0.8837,   23.4231,    0.0836,    7.7002
+    0.0028,    0.0106,   54.5754,    0.0086
+Instantiating LatentDiffusion...
+Free3DDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 864.53 M params.
+Keeping EMAs of 776.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+Restored from /logs//2025-02-05T19-53-58_skel3d_ai_gpu8_hdf//checkpoints/epoch=000071.ckpt with 0 missing and 0 unexpected keys
+Preparing to load dataset on gpu
+len(test_data): 16
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps
+Data shape for DDIM sampling is (16, 4, 32, 32), eta 1.0
+Running DDIM Sampling with 49 timesteps

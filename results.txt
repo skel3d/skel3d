@@ -1,0 +1,113 @@
+Method Objaverse[15]
+                    SSIM↑   LPIPS↓  FID↓    PPLC↓ Time↓
+Zero-1-to-3[38]     0.8462  0.0938  1.52    18.84   3s/44s
+Zero123-XL[14]      0.8339  0.1098  1.67    25.61   3s/44s
+SyncDreamer[39]     0.8063  0.1910  7.57    16.32   25s/77s
+Consistent123[69]   0.8530  0.0913  1.48    17.89   4s/63s
+Ours (Free3D)       0.8620  0.0784  1.21    10.82   3s/52s
+
+
+
+
+
+
+
+
+8gpu
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0090,    0.9722,   30.2066,    0.0149,    3.1287
+    0.0001,    0.0017,   12.1417,    0.0001
+
+4gpu
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0090,    0.9722,   30.2066,    0.0149,    3.1287
+    0.0001,    0.0017,   12.1417,    0.0001
+
+
+noskel
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0090,    0.9722,   30.2066,    0.0149,    3.1315
+    0.0001,    0.0017,   12.1419,    0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+ooooo recon
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0041,    0.9908,   37.1361,    0.0062,    1.9765
+    0.0000,    0.0001,   11.7151,    0.0000
+
+
+iiiii
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0042,    0.9908,   37.2015,    0.0061,    2.1142
+    0.0000,    0.0001,   12.7994,    0.0000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0753,    0.7445,   14.5159,    0.2153,   14.9519
+    0.0019,    0.0102,   10.7183,    0.0071
+
+
+
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0766,    0.7488,   14.6560,    0.2168,   17.5795
+    0.0023,    0.0103,   11.6538,    0.0084
+
+output2/user/reconstruction/
+    l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0086,    0.9731,   30.2153,    0.0143,    6.3261
+    0.0001,    0.0009,   11.6543,    0.0001
+
+
+
+output_ori/user/conditioning/
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0601,    0.8271,   14.8823,    0.1513,   13.5086
+    0.0018,    0.0057,   11.4093,    0.0055
+
+output_ori/user/reconstruction/
+l1loss,      SSIM,      PSNR,     LPIPS,        FID-Score
+    0.0037,    0.9918,   37.4945,    0.0058,    3.4227
+    0.0000,    0.0000,   11.3883,    0.0000
+
+utput_skel/user/reconstruction/
+
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0079,    0.9750,   30.6725,    0.0137,    6.4899
+    0.0000,    0.0003,    8.7962,    0.0000
+
+
+recon
+l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0798,    0.7428,   14.1966,    0.2292,   15.6357
+    0.0028,    0.0108,   10.8335,    0.0096
+
+ l1loss,      SSIM,      PSNR,     LPIPS, FID-Score
+    0.0079,    0.9750,   30.6725,    0.0137,    6.4899
+    0.0000,    0.0003,    8.7962,    0.0000
+
+
+
+

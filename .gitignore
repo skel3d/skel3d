@@ -1,0 +1,13 @@
+wandb/*
+matplot_temp/*
+
+*/__pycache__/*
+*.pyc
+*.ckpt
+*.sif
+*.out
+*.err
+output*/*
+slurm_out/*
+
+*xxxx.py
